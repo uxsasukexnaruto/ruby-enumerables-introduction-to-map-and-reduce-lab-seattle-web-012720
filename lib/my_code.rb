@@ -44,10 +44,9 @@ end
 
 def reduce_to_total(array, starting_point = 0) 
   index = 0 
-  total = 0 
   while array[index] do 
-    total += array[index]
+    starting_point += array[index]
     index += 1 
   end 
-  total 
+  starting_point 
 end 
