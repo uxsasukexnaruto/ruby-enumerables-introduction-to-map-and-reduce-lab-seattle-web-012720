@@ -68,8 +68,10 @@ def reduce_to_any_true(array)
   while array[index] do 
     if array[index] == true
       return true  
+    else 
+      return false 
     end 
     index += 1 
   end 
-  return false 
+  # return false 
 end
