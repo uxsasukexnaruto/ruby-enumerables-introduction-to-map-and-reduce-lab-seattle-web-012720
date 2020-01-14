@@ -50,3 +50,12 @@ def reduce_to_total(array, starting_point = 0)
   end 
   starting_point 
 end 
+
+
+def reduce_to_all_true(array)
+  index = 0 
+  while array[index] do 
+    starting_point += array[index]
+    index += 1 
+  end 
+end 
