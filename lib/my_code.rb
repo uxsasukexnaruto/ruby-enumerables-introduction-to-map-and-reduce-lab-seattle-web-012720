@@ -55,10 +55,10 @@ end
 def reduce_to_all_true(array)
   index = 0 
   while array[index] do 
-    if array[index] 
-      return true  
+    if !array[index] 
+      return false  
     end 
     index += 1 
   end 
-  return false  
+  return true  
 end 
