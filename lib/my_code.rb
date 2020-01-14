@@ -40,3 +40,14 @@ def map_to_square(array)
   end 
   new_array
 end
+
+
+def reduce_to_total(array) 
+  index = 0 
+  total = 0 
+  while array[index] do 
+    total += array[index]
+    index += 1 
+  end 
+  total 
+end 
